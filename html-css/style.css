@@ -20,7 +20,7 @@ p {
     border-radius: 50px;
     width: 800px;
     height: 300px;
-    
+    gap: 20px;
     display: flex;
 }
 
