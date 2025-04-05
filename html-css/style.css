@@ -1,28 +1,62 @@
-/* hoja de esilos css */
+/* hoja de estilos css */
 
-/* tres selectores*/
+/* tres selectores */
 
 /* selector por etiqueta */
 
-p {
-    color: rgb(38, 0, 255);
+body{
+    background-color: #262d42;
 }
-
-.contenedor{
-    color: rgb(255, 255, 255);
-    background-color: black;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid black;
-    border-style: dashed;
-    padding: 5px;
+.contenedor {
+    color: white;
+    background: #333333;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
     margin: 100px;
     border-radius: 50px;
     width: 800px;
     height: 300px;
-    gap: 20px;
     display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.titulo {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.contenedor-bordes{
+.subtitulo {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 3px 0 0 0;
+    color: #e0e0e0;
+  }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
 }
+
+.textos{
+    font-size: 18px;
+    font-weight: 100;
+    margin: 30px 0 0 0;
+    color: #e0e0e0;
+}
+
+.textos2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 3px 0 0 0;
+    color: #e9bb24;
+}
+
+
